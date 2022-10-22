@@ -264,7 +264,7 @@ h2{
     border: 0;
     font: Arial;
     vertical-align: baseline;
-    display: inline-block;
+    display: inline-bloque;
     width: 100%;
     max-width: 640px;
     color: #8f6c53;
@@ -505,7 +505,7 @@ h2{
     max-width: 100%;
 }
 
-.module__three-up__overlay-true{
+.antezana__overlay{
     text-transform: uppercase;
     letter-spacing: .1em;
     -webkit-font-smoothing: antialiased;
@@ -523,7 +523,7 @@ h2{
 
 
 
-.module-interior{
+.interior__antezana{
     text-transform: uppercase;
     letter-spacing: .1em;
     -webkit-font-smoothing: antialiased;
@@ -541,7 +541,7 @@ h2{
     flex-wrap: wrap;
 }
 
-.block__block--1{
+.bloque__bloque--1{
     text-transform: uppercase;
     letter-spacing: .1em;
     -webkit-font-smoothing: antialiased;
@@ -558,7 +558,7 @@ h2{
     position: relative;
 }
 
-.block-interior{
+.bloque-interior{
     text-transform: uppercase;
     letter-spacing: .1em;
     -webkit-font-smoothing: antialiased;
@@ -575,7 +575,7 @@ h2{
 
 
 
-.block__block--2{
+.bloque__bloque--2{
     text-transform: uppercase;
     letter-spacing: .1em;
     -webkit-font-smoothing: antialiased;
@@ -592,7 +592,7 @@ h2{
     position: relative;
 }
 
-.picture__picture--portrait__picture--dynamic{
+.antezana__retrato{
     text-transform: uppercase;
     letter-spacing: .1em;
     -webkit-font-smoothing: antialiased;
@@ -603,7 +603,7 @@ h2{
     outline: none;
 }
 
-.block-content__block-overlay{
+.bloque-contenido__bloque-overlay{
     text-transform: uppercase;
     letter-spacing: .1em;
     -webkit-font-smoothing: antialiased;
@@ -631,7 +631,7 @@ h2{
 }
 
 
-.block__block--3{
+.bloque__bloque--3{
     text-transform: uppercase;
     letter-spacing: .1em;
     -webkit-font-smoothing: antialiased;
@@ -649,7 +649,7 @@ h2{
 }
 
 
-.title-b__block-title{
+.title-b__bloque-title{
     text-transform: uppercase;
     letter-spacing: .1em;
     -webkit-font-smoothing: antialiased;
@@ -668,17 +668,9 @@ h2{
 }
 
 
-.picture__img__picture__img--cover__lazyloaded__initial__loaded{
-    text-transform: uppercase;
-    letter-spacing: .1em;
-    -webkit-font-smoothing: antialiased;
-    -webkit-text-size-adjust: 100%;
-    font: inherit;
-    font-size: 100%;
-}
 
 
-.title-b__block-title__1{
+.title-b__bloque-title__1{
     text-transform: uppercase;
     letter-spacing: .1em;
     -webkit-font-smoothing: antialiased;
@@ -697,7 +689,7 @@ h2{
 }
 
 
-.title-b__block-title__jacket{
+.title-b__bloque-title__jacket{
     text-transform: uppercase;
     letter-spacing: .1em;
     -webkit-font-smoothing: antialiased;
@@ -715,7 +707,7 @@ h2{
     font-size: 3.64583vw;
 }
 
-.footer__small-text{
+.footer__texto-pequeño{
     font-family: Helvetica,Helvetica Neue,Arial,Lucida Grande,sans-serif;
     letter-spacing: .025em;
     line-height: 1.5;
