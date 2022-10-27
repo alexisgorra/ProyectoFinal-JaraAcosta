@@ -29,7 +29,7 @@
     text-transform: uppercase;
     letter-spacing: 15px;
     font-size: 12px;
-    transition: ease-in-out .3s;
+    transition: ease-in-out .0s;
 }
 
 ul {
@@ -290,20 +290,6 @@ a{
     transform: translate(-50%,-50%);
 }
 
-.ab-essentials__image-wrapperani__follow{
-    color: #000;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font: Arial;
-    vertical-align: baseline;
-    position: relative;
-    width: 100%;
-    height: 100%;
-    transform: translateY(4px);
-}
-
 
 
 .ab-heisenberg{
@@ -347,7 +333,7 @@ a{
     margin-right: 10vw;
 }
 
-.ab-heisenberg__text-contenido__ani-reset-transform-on-view{
+.ab-heisenberg__text-contenido{
     color: #000;
     margin: 0;
     padding: 0;
@@ -361,7 +347,7 @@ a{
     opacity: 1;
 }
 
-.ab-heisenberg__text-titulo__ani-reset-transform-on-view{
+.ab-heisenberg__text-titulo{
     padding: 0;
     border: 0;
     font-family: Arial;
@@ -412,13 +398,13 @@ a{
     width: calc(50% - 10vw);
 }
 
-.ab-pronto__text-contenido__ani-reset-transform-on-view{
+.ab-pronto__text-contenido{
     margin: 0;
     padding: 0;
     border: 0;
     font-family: Arial;
     vertical-align: baseline;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-weight: 300;
     line-height: 1.8;
     transition: opacity .7s linear,transform .3s linear;
@@ -426,7 +412,7 @@ a{
     opacity: 1;
 }
 
-.ab-pronto__text-titulo__ani-reset-transform-on-view{
+.ab-pronto__text-titulo{
     margin: 0;
     padding: 0;
     border: 0;
@@ -482,12 +468,6 @@ a{
 
 
 .antezana__overlay{
-    text-transform: uppercase;
-    letter-spacing: .1em;
-    -webkit-font-smoothing: antialiased;
-    -webkit-text-size-adjust: 100%;
-    box-sizing: inherit;
-    outline: none;
     margin: 0;
     border: 0;
     font: inherit;
@@ -500,70 +480,35 @@ a{
 
 
 .interior__antezana{
-    text-transform: uppercase;
-    letter-spacing: .1em;
-    -webkit-font-smoothing: antialiased;
-    -webkit-text-size-adjust: 100%;
-    box-sizing: inherit;
-    outline: none;
     margin: 0;
     padding: 0;
     border: 0;
     font: inherit;
-    font-size: 100%;
-    vertical-align: baseline;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
 .bloque__bloque--1{
-    text-transform: uppercase;
-    letter-spacing: .1em;
-    -webkit-font-smoothing: antialiased;
-    -webkit-text-size-adjust: 100%;
-    box-sizing: inherit;
-    outline: none;
     margin: 0;
     padding: 0;
     border: 0;
-    font: inherit;
-    font-size: 100%;
-    vertical-align: baseline;
     width: calc(33.3333% - 13px);
     position: relative;
 }
 
 .bloque-interior{
-    text-transform: uppercase;
-    letter-spacing: .1em;
-    -webkit-font-smoothing: antialiased;
-    -webkit-text-size-adjust: 100%;
-    box-sizing: inherit;
-    outline: none;
     margin: 0;
     padding: 0;
     border: 0;
-    font: inherit;
-    font-size: 100%;
-    vertical-align: baseline;
 }
 
 
 
 .bloque__bloque--2{
-    text-transform: uppercase;
-    letter-spacing: .1em;
-    -webkit-font-smoothing: antialiased;
-    -webkit-text-size-adjust: 100%;
-    box-sizing: inherit;
-    outline: none;
     margin: 0;
     padding: 0;
     border: 0;
-    font: inherit;
-    font-size: 100%;
-    vertical-align: baseline;
     width: calc(33.3333% - 13px);
     position: relative;
 }
@@ -571,27 +516,14 @@ a{
 .antezana__retrato{
     text-transform: uppercase;
     letter-spacing: .1em;
-    -webkit-font-smoothing: antialiased;
-    -webkit-text-size-adjust: 100%;
     font: inherit;
     font-size: 100%;
-    box-sizing: inherit;
-    outline: none;
 }
 
 .bloque-contenido__bloque-overlay{
-    text-transform: uppercase;
-    letter-spacing: .1em;
-    -webkit-font-smoothing: antialiased;
-    -webkit-text-size-adjust: 100%;
-    box-sizing: inherit;
-    outline: none;
     margin: 0;
     padding: 0;
     border: 0;
-    font: inherit;
-    font-size: 100%;
-    vertical-align: baseline;
     position: absolute;
     left: 0;
     top: 0;
@@ -608,18 +540,9 @@ a{
 
 
 .bloque__bloque--3{
-    text-transform: uppercase;
-    letter-spacing: .1em;
-    -webkit-font-smoothing: antialiased;
-    -webkit-text-size-adjust: 100%;
-    box-sizing: inherit;
-    outline: none;
     margin: 0;
     padding: 0;
     border: 0;
-    font: inherit;
-    font-size: 100%;
-    vertical-align: baseline;
     width: calc(33.3333% - 13px);
     position: relative;
 }
@@ -628,16 +551,10 @@ a{
 .title-b__bloque-title{
     text-transform: uppercase;
     letter-spacing: .1em;
-    -webkit-font-smoothing: antialiased;
-    -webkit-text-size-adjust: 100%;
     text-align: center;
     color: #fff;
-    box-sizing: inherit;
-    outline: none;
     padding: 50px;
     border: 0;
-    font: inherit;
-    vertical-align: baseline;
     margin: 0;
     font-weight: 400;
     font-size: 3.64583vw;
@@ -649,16 +566,10 @@ a{
 .title-b__bloque-title__1{
     text-transform: uppercase;
     letter-spacing: .1em;
-    -webkit-font-smoothing: antialiased;
-    -webkit-text-size-adjust: 100%;
     text-align: center;
     color: #fff;
-    box-sizing: inherit;
-    outline: none;
     padding: 0;
     border: 0;
-    font: inherit;
-    vertical-align: baseline;
     margin: 0;
     font-weight: 400;
     font-size: 3.64583vw;
@@ -668,16 +579,10 @@ a{
 .title-b__bloque-title__jacket{
     text-transform: uppercase;
     letter-spacing: .1em;
-    -webkit-font-smoothing: antialiased;
-    -webkit-text-size-adjust: 100%;
     text-align: center;
     color: #fff;
-    box-sizing: inherit;
-    outline: none;
     padding: 117px;
     border: 0;
-    font: inherit;
-    vertical-align: baseline;
     margin: 0;
     font-weight: 400;
     font-size: 3.64583vw;
@@ -771,3 +676,4 @@ a{
 .antezana-producto:nth-child(30){
     grid-column-end: span 3;
 }
+
