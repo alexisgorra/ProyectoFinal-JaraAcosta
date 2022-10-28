@@ -954,11 +954,11 @@ section{
 
 
 .frases1{
-    background-image: url(/img/texto1.png);
+    background-image: url(/img/texto1.jpg);
 }
 
 .frases2{
-    background-image: url(/img/texto2.png);
+    background-image: url(/img/texto2.jpg);
     transition: all 0.5s;
 }
 
