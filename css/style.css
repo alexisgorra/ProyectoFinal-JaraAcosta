@@ -7,19 +7,19 @@
 }
 
 @font-face{
-    src:url(/fonts/Hypatia-Sans-Pro.ttf);
+    src:url(../fonts/Hypatia-Sans-Pro.ttf);
     font-family: 'Hypatia-Sans-Pro'
 }
 
 
 
 @font-face{
-    src:url(/fonts/BazaART.otf);
+    src:url(../fonts/BazaART.otf);
     font-family: 'BazaART'
 }
 
 @font-face{
-    src:url(/fonts/OPTIMA.woff);
+    src:url(../fonts/OPTIMA.woff);
     font-family: 'OPTIMA'
 }
 
