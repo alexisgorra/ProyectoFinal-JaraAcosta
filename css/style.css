@@ -1119,8 +1119,12 @@ input{
     }
 }
 
+.desktop1{
+    max-width: 100%
+}
 
-.essen185{
+
+/* .essen185{
     display: none;
 }
 .jacketshop185{
@@ -1355,4 +1359,4 @@ input{
     .antezana-producto:nth-child(1){
         grid-column-end: span 1;
     }
-}
+} */
