@@ -988,6 +988,7 @@ input{
 @media screen and (max-width: 670px) and (min-width: 1px){
     .mobile{
         display: block;
+        padding-left: 7px;
     }
 }
 
@@ -1056,7 +1057,7 @@ input{
     padding-left: 120px;
 }
 
-@media (max-width: 670px) and (min-width:1px) {
+@media screen and (max-width: 670px) and (min-width:1px) {
     #text{
         padding-left: 22px;
         font-size: 37px;
@@ -1065,7 +1066,7 @@ input{
 }
 
 
-@media (max-width: 670px) and (min-width:1px) {
+@media screen and (max-width: 670px) and (min-width:1px) {
     .texto{
         padding-left: 110px;
         font-size: 50px;
@@ -1074,7 +1075,7 @@ input{
 }
 
 
-@media (max-width: 670px) and (min-width:1px) {
+@media screen and (max-width: 670px) and (min-width:1px) {
     .texto2{
         padding-left: 62px;
         font-size: 50px;
@@ -1083,7 +1084,7 @@ input{
 }
 
 
-@media (max-width: 1366px) and (min-width:1px){
+@media screen and (max-width: 1366px) and (min-width:1px){
     .texto2{
         font-size: 50px;
         padding-left: 70px;
@@ -1091,7 +1092,7 @@ input{
 }
 
 
-@media (max-width: 1366px) and (min-width:1px){
+@media screen and (max-width: 1366px) and (min-width:1px){
     .texto{
         font-size: 50px;
         padding-left: 110px;
@@ -1099,61 +1100,35 @@ input{
 }
 
 
-@media (max-width: 450px) and (min-width:1px) {
+@media screen and (max-width: 450px) and (min-width:1px) {
     .texto2{
         font-size: 50px;
         padding-left: 47px;
     }
 }
 
-@media (min-width: 1366px){
+@media screen and (min-width: 1366px){
     .notebook{
         display: none;
     }
 }
 
-@media (max-width: 670px) and (min-width:1px) {
+@media screen and (max-width: 670px) and (min-width:1px) {
     .note{
         display: none;
     }
 }
 
-@media (min-width: 1024px){
+@media screen and (min-width: 1024px){
     .note{
         display: block;
     }
 }
 
 
-@media (max-width: 1366px) and (min-width:1px){
+@media screen and (max-width: 1366px) and (min-width:1px){
     .wallpaper{
         display: none;
     }
 }
 
-
-/* @media (min-width: 780px){
-    .wallpaper{
-        max-width: 100%;
-    }
-} 
-
-
-@media (min-width: 780px){
-    #text{
-        top: 856px;
-    }
-}
-
-@media (min-width: 780px){
-    .texto{
-        top: 856px;
-    }
-}
-
-@media (min-width: 780px){
-    .texto2{
-        top: 856px;
-    }
-}
- */
