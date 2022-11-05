@@ -1000,6 +1000,13 @@ input{
     }
 }
 
+@media screen and (width: 412px) and (height: 915px){
+    .mobile3{
+        display: block;
+        width: 100%;
+    }
+}
+
 @media screen and (width: 414px) and (height: 736px){
     .mobile3{
         display: block;
