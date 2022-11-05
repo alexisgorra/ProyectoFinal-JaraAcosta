@@ -985,7 +985,7 @@ input{
 }
 
 
-@media screen and (max-width: 670px) and (min-width: 1px){
+@media screen and (max-width: 768px) and (min-height: 1px){
     .mobile{
         display: block;
 /*         padding-left: 7px; */
@@ -1001,12 +1001,6 @@ input{
     }
 }
 
-@media screen and (width: 414px) and (height: 736px){
-    .mobile{
-        display: block;
-        width: 100%;
-    }
-}
 
 @media screen and (width: 414px) and (height: 736px){
     .mobile3{
