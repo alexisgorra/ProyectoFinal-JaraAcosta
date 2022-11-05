@@ -1001,6 +1001,13 @@ input{
     }
 }
 
+@media screen and (width: 419px) and (height: 736px){
+    .mobile3{
+        display: block;
+        width: 100%;
+    }
+}
+
 
 @media screen and (width: 414px) and (height: 736px){
     .mobile3{
