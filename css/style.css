@@ -989,6 +989,7 @@ input{
     .mobile{
         display: block;
 /*         padding-left: 7px; */
+        overflow: hidden;
     }
 }
 
@@ -1000,7 +1001,7 @@ input{
     }
 }
 
-@media screen and (width: 412px) and (height: 915px){
+@media screen and (max-width: 412px) and (min-height: 915px){
     .mobile3{
         display: block;
         width: 100%;
@@ -1021,7 +1022,7 @@ input{
     }
 }
 
-@media screen and (width: 412px) and (height: 915px){
+@media screen and (max-width: 412px) and (min-height: 915px){
     .mobile{
         display: block;
         overflow: hidden;
