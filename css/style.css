@@ -1015,7 +1015,8 @@ input{
     }
 }
 
-@media screen and (width: 414px) and (height: 736px){
+
+@media only screen and (-webkit-min-device-pixel-ratio: 3) {
     .mobile3{
         display: block;
         width: 100%;
@@ -1030,12 +1031,12 @@ input{
 }
 
 
-@media screen and (width: 414px) and (height: 736px){
+/* @media screen and (width: 414px) and (height: 736px){
     .mobile3{
         display: block;
         width: 100%;
     }
-}
+} */
 
 @media screen and (width: 375px) and (height: 667px){
     .mobile{
