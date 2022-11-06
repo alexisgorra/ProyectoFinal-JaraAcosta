@@ -1001,6 +1001,13 @@ input{
     }
 }
 
+@media screen and (width: 414px) and (height: 896px){
+    .mobile3{
+        display: block;
+        width: 100%;
+    }
+}
+
 @media screen and (width: 419px) and (height: 736px){
     .mobile3{
         display: block;
@@ -1135,7 +1142,7 @@ input{
 }
 
 
-@media screen and (max-width: 1366px) and (min-width:1px){
+@media screen and (max-width: 1367px) and (min-width:1px){
     .texto2{
         font-size: 50px;
         padding-left: 70px;
@@ -1143,7 +1150,7 @@ input{
 }
 
 
-@media screen and (max-width: 1366px) and (min-width:1px){
+@media screen and (max-width: 1367px) and (min-width:1px){
     .texto{
         font-size: 50px;
         padding-left: 110px;
@@ -1158,7 +1165,7 @@ input{
     }
 }
 
-@media screen and (min-width: 1366px){
+@media screen and (min-width: 1367px){
     .notebook{
         display: none;
     }
@@ -1177,7 +1184,7 @@ input{
 }
 
 
-@media screen and (max-width: 1366px) and (min-width:1px){
+@media screen and (max-width: 1367px) and (min-width:1px){
     .wallpaper{
         display: none;
     }
