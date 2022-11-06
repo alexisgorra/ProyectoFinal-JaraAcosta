@@ -1008,15 +1008,28 @@ input{
     }
 }
 
-@media screen and (width: 360px) and (height: 640px){
+@media only screen and (max-width: 360px) {
+    .mobile3{
+        display: block;
+        width: 100%;
+    }
+  }
+
+  @media only screen and (max-width: 360px) {
+    .mobile3{
+        display: block;
+        width: 100%;
+    }
+  }
+
+@media only screen and (-webkit-min-device-pixel-ratio: 3) {
     .mobile3{
         display: block;
         width: 100%;
     }
 }
 
-
-@media only screen and (-webkit-min-device-pixel-ratio: 3) {
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
     .mobile3{
         display: block;
         width: 100%;
