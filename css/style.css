@@ -190,12 +190,6 @@ a{
 
 
 .pagina-about{
-    color: #000;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font: Arial;
-    vertical-align: baseline;
     width: 100%;
     overflow: hidden;
 }
@@ -206,26 +200,15 @@ a{
 }
 
 
-.ab-essentials{
-    color: #000;
-    margin: 0;
-    border: 0;
-    font: Arial;
-    vertical-align: baseline;
+.ab-essentials{ 
     border-top: 0;
-    padding: 70px 0;
+    padding: 22px 0;
     text-align: center;
     position: relative;
     background-color: #efefef;
 }
 
 .ab-essentials__text{
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font: Arial;
-    vertical-align: baseline;
     display: inline-block;
     width: 100%;
     max-width: 640px;
@@ -237,13 +220,6 @@ a{
 }
 
 .ab-essentials__image{
-    color: #000;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font: Arial;
-    vertical-align: baseline;
     width: 300px;
     height: 400px;
     position: absolute;
@@ -255,12 +231,6 @@ a{
 
 
 .ab-heisenberg{
-    color: #000;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font: Arial;
-    vertical-align: baseline;
     border-top: 0;
     position: relative;
     display: flex;
@@ -269,12 +239,6 @@ a{
 }
 
 .ab-heisenberg__image{
-    color: #000;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font: Arial;
-    vertical-align: baseline;
     flex-basis: 50%;
     text-align: left;
     overflow: hidden;
@@ -282,12 +246,6 @@ a{
 }
 
 .ab-heisenberg__text{
-    color: #000;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font: Arial;
-    vertical-align: baseline;
     flex-basis: 40%;
     max-width: 340px;
     padding-right: 20px;
@@ -296,26 +254,18 @@ a{
 }
 
 .ab-heisenberg__text-contenido{
-    color: #000;
-    margin: 0;
-    padding: 0;
-    border: 0;
     font-family: 'Hypatia-Sans-Pro', sans-serif;
     vertical-align: baseline;
     font-weight: 300;
     line-height: 1.8;
     transition: opacity .7s linear,transform .3s linear;
-    transform: translate(0px, 0px);
-    opacity: 1;
+    opacity: 0;
 }
 
 .ab-heisenberg__text-titulo{
-    padding: 0;
-    border: 0;
-    vertical-align: baseline;
     text-transform: uppercase;
     font-size: 58px;
-    font-family: 'Hypatia-Sans-Pro', sans-serif;
+    font-family: 'BazaART','Hypatia-Sans-Pro', sans-serif;
     color: #8f6c53;
     margin: 70px 0 30px 0;
     transition: opacity .7s linear,transform .3s linear;
@@ -349,9 +299,6 @@ a{
 }
 
 .ab-pronto__text-contenido{
-    margin: 0;
-    padding: 0;
-    border: 0;
     font-family: 'Hypatia-Sans-Pro', sans-serif;
     vertical-align: baseline;
     color: rgb(255, 255, 255);
@@ -363,11 +310,6 @@ a{
 }
 
 .ab-pronto__text-titulo{
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-family: Arial;
-    vertical-align: baseline;
     color: #fff;
     font-family: 'BazaART','Hypatia-Sans-Pro', sans-serif;
     font-size: 58px;
@@ -375,7 +317,6 @@ a{
     text-transform: uppercase;
     line-height: .9;
     transition: opacity .7s linear,transform .3s linear;
-    transform: translate(0px, 0px);
     opacity: 1;
 }
 
@@ -464,7 +405,7 @@ p{
     position: relative;
     display: flex;
     justify-content: space-between;
-    top: 187px;
+    top: 176px;
     margin-bottom: 0;
     margin-right: 254px;
     font-family: 'Hypatia-Sans-Pro', sans-serif;
