@@ -259,7 +259,7 @@ a{
     font-weight: 300;
     line-height: 1.8;
     transition: opacity .7s linear,transform .3s linear;
-    opacity: 0;
+    opacity: 1;
 }
 
 .ab-heisenberg__text-titulo{
@@ -525,6 +525,59 @@ input{
     display: none;
 }
 
+
+.desktop1{
+    max-width: 100%
+}
+
+
+.inicio__lista{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 20px;
+    column-gap: 10px;
+}
+
+
+.image{
+    display: block;
+}
+
+#text{
+    position:absolute;    
+    color:white;
+    font-size:3.64583vw;
+    font-family: 'OPTIMA', sans-serif;
+    left:48px;
+    top:1156px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-weight: 400
+}
+
+.texto{
+    position:absolute;    
+    color:white;
+    font-size:3.64583vw;
+    font-family: 'OPTIMA', sans-serif;
+    top:1156px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-weight: 400;
+    padding-left: 179px;
+}
+
+.texto2{
+    position:absolute;    
+    color:white;
+    font-size:3.64583vw;
+    font-family: 'OPTIMA', sans-serif;
+    top:1156px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-weight: 400;
+    padding-left: 120px;
+}
 
 @media screen and (max-width: 1000px) and (min-width: 1px){
     .header{
@@ -983,14 +1036,6 @@ input{
     }
 }
 
-
-/* @media screen and (width: 414px) and (height: 736px){
-    .mobile3{
-        display: block;
-        width: 100%;
-    }
-} */
-
 @media screen and (width: 375px) and (height: 667px){
     .mobile{
         display: block;
@@ -1018,21 +1063,6 @@ input{
     }
 }
 
-.desktop1{
-    max-width: 100%
-}
-
-
-
-.inicio__lista{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    padding: 20px;
-    column-gap: 10px;
-}
-
-
-
 @media screen and (max-width: 670px) and (min-width: 1px) {
     .inicio__lista{
         grid-template-columns: 1fr;
@@ -1042,46 +1072,6 @@ input{
     }
 }
 
-
-.image{
-    display: block;
-}
-
-#text{
-    position:absolute;    
-    color:white;
-    font-size:3.64583vw;
-    font-family: 'OPTIMA', sans-serif;
-    left:48px;
-    top:1156px;
-    text-transform: uppercase;
-    letter-spacing: .1em;
-    font-weight: 400
-}
-
-.texto{
-    position:absolute;    
-    color:white;
-    font-size:3.64583vw;
-    font-family: 'OPTIMA', sans-serif;
-    top:1156px;
-    text-transform: uppercase;
-    letter-spacing: .1em;
-    font-weight: 400;
-    padding-left: 179px;
-}
-
-.texto2{
-    position:absolute;    
-    color:white;
-    font-size:3.64583vw;
-    font-family: 'OPTIMA', sans-serif;
-    top:1156px;
-    text-transform: uppercase;
-    letter-spacing: .1em;
-    font-weight: 400;
-    padding-left: 120px;
-}
 
 @media screen and (max-width: 670px) and (min-width:1px) {
     #text{
