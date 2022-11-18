@@ -1126,11 +1126,3 @@ input{
         padding-left: 47px;
     }
 }
-
-
-@media screen and (max-width: 1367px) and (min-width:1px){
-    .wallpaper{
-        display: none;
-    }
-}
-
