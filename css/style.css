@@ -1127,13 +1127,7 @@ input{
         padding-left: 47px;
     }
 }
-
-@media screen and (min-width: 1367px){
-    .notebook{
-        display: none;
-    }
-}
-
+    
 @media screen and (max-width: 670px) and (min-width:1px) {
     .note{
         display: none;
