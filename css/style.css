@@ -986,7 +986,6 @@ input{
 @media screen and (max-width: 768px) and (min-height: 1px){
     .mobile{
         display: block;
-/*         padding-left: 7px; */
         overflow: hidden;
     }
 }
@@ -1125,18 +1124,6 @@ input{
     .texto2{
         font-size: 50px;
         padding-left: 47px;
-    }
-}
-    
-@media screen and (max-width: 670px) and (min-width:1px) {
-    .note{
-        display: none;
-    }
-}
-
-@media screen and (min-width: 1024px){
-    .note{
-        display: block;
     }
 }
 
