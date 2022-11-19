@@ -560,7 +560,7 @@ input:focus, textarea:focus{
     color: white;
     font-family: 'Hypatia-Sans-Pro', sans-serif;
     text-transform: uppercase;
-    background-color: #2b2b36;
+    background-color: #202028;
 }
 .btn-send:hover{
     background-color: white;
