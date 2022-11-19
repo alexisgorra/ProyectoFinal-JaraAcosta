@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    /* color: #8f6c53; */
 }
 
 @font-face{
@@ -195,11 +194,6 @@ a{
 }
 
 
-a{
-    text-decoration: none;
-}
-
-
 .ab-essentials{ 
     border-top: 0;
     padding: 22px 0;
@@ -349,10 +343,9 @@ p{
 .pagina-contenido__title--mobile{
     display: none;
 }
-
+/* 
 .pagina-contenido__form-container{
     position: relative;
-    /* display: inline-block; */
     width: 350px;
     max-width: 100%;
     color: #fff;
@@ -399,13 +392,13 @@ p{
     cursor: pointer;
     transition: color .3s linear, background-color .3s linear;
     width: 200px;
-}
+} */
 
 .pagina-contacto__footer{
     position: relative;
     display: flex;
     justify-content: space-between;
-    top: 176px;
+    top: 229px;
     margin-bottom: 0;
     margin-right: 254px;
     font-family: 'Hypatia-Sans-Pro', sans-serif;
@@ -436,11 +429,11 @@ p{
     color: #fff;
 }
 
-input{
+/* input{
     border-radius: 0;
     background-color: #fff;
     color: #000;
-}
+} */
 
 .header__contacto{
     color: #fff;
@@ -586,6 +579,70 @@ input{
 
 .wallpaper{
     width: 100%;
+}
+
+form{
+    font-family: 'Hypatia-Sans-Pro', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    padding: 1.8rem 0 1.8rem 1.8rem;
+    margin: 1rem auto;
+    max-width: 95%;
+    border: 1px solid white
+}
+fieldset{
+    border: none;
+}
+fieldset div:last-child{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+legend{
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    font-family: 'Hypatia-Sans-Pro', sans-serif;
+    font-weight: 300;
+    color: black;
+    text-transform: uppercase;
+}
+label{
+    color: white;
+    text-transform: uppercase;
+}
+input{
+    height: 30px;
+    margin: 0 0 10px 10px;
+    /* border: 1px solid black; */
+    padding: 15px;
+    font-family: 'Hypatia-Sans-Pro', sans-serif;
+    font-size: 14px;
+    color: black;
+}
+input:focus, textarea:focus{
+    outline: none;
+}
+.btn-send{
+    padding: 0 50px;
+    border: white 2px solid;
+    color: white;
+    font-family: 'Hypatia-Sans-Pro', sans-serif;
+    text-transform: uppercase;
+    background-color: #2b2b36;
+}
+.btn-send:hover{
+    background-color: white;
+    color: black;
+}
+svg{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+textarea {
+    margin-left: 10px;
 }
 
 @media screen and (max-width: 1000px) and (min-width: 1px){
@@ -1097,5 +1154,34 @@ input{
 @media screen and (max-width: 450px) and (min-width:1px) {
     .texto2{
         font-size: 50px;
+    }
+}
+
+
+@media screen and (max-width: 670px) and (min-width: 1px){
+    form{
+        font-size: 12px;
+        padding: 0px;
+        border: none;
+    }
+}
+
+@media screen and (max-width: 670px) and (min-width: 1px){
+    label{
+        margin: 8px;
+    }
+}
+
+@media screen and (max-width: 450px) and (min-width: 1px){
+    form{
+        font-size: 12px;
+        padding: 0px;
+        border: none;
+    }
+}
+
+@media screen and (max-width: 450px) and (min-width: 1px){
+    label{
+        margin: 8px;
     }
 }
