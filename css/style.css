@@ -169,16 +169,6 @@ a{
     text-decoration: none;
 }
 
-.contenido{
-    color: #000;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font: Arial;
-    vertical-align: baseline;
-}
-
-
 .pagina-about{
     width: 100%;
     overflow: hidden;
