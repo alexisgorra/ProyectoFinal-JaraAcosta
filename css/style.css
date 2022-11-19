@@ -334,7 +334,7 @@ p{
     position: relative;
     display: flex;
     justify-content: space-between;
-    top: 229px;
+    top: 180px;
     margin-bottom: 0;
     margin-right: 254px;
     font-family: 'Hypatia-Sans-Pro', sans-serif;
@@ -543,11 +543,13 @@ label{
 input{
     height: 30px;
     margin: 0 0 10px 10px;
-    /* border: 1px solid black; */
     padding: 15px;
     font-family: 'Hypatia-Sans-Pro', sans-serif;
     font-size: 14px;
-    color: black;
+    color: white;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
 }
 input:focus, textarea:focus{
     outline: none;
@@ -572,6 +574,10 @@ svg{
 }
 textarea {
     margin-left: 10px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
 }
 
 @media screen and (max-width: 1000px) and (min-width: 1px){
