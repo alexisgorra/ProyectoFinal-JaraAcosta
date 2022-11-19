@@ -949,19 +949,19 @@ textarea {
     }
 }
 
-@media screen and (max-width: 450px) and (min-height: 1px){
+/* @media screen and (max-width: 450px) and (min-height: 1px){
     .pagina-contenido{
         padding-left: 10px;
         padding-right: 10px;
     }
-}
+} */
 
-@media screen and (max-width: 670px) and (min-width: 1px){
+/* @media screen and (max-width: 670px) and (min-width: 1px){
     .pagina-contenido{
         padding-left: 40px;
         padding-right: 40px;
     }
-}
+} */
 
 @media screen and (max-width: 670px) and (min-width: 1px){
     .pagina-contenido__title--desktop{
@@ -993,6 +993,7 @@ textarea {
 @media screen and (max-width: 670px) and (min-width: 1px){
     .pagina-contenido__title--mobile{
         display: block;
+        text-align: center;
     }
 }
 
@@ -1160,7 +1161,7 @@ textarea {
 
 @media screen and (max-width: 670px) and (min-width: 1px){
     form{
-        font-size: 12px;
+        font-size: 14px;
         padding: 0px;
         border: none;
     }
