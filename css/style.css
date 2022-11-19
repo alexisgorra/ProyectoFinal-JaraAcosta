@@ -545,13 +545,14 @@ input{
 
 #text{
     position: absolute;
-    top: 295px;
-    left: 15%;
+    top: 50%;
+    left: 50%;
     font-family: 'OPTIMA', sans-serif;
     font-size: 61px;
     color: #fff;
     text-transform: uppercase;
     font-weight: 400;
+    transform: translate(-50%, -50%);
 }
 
 .caja{
@@ -561,24 +562,26 @@ input{
 
 .texto{
     position: absolute;
-    top: 296px;
-    left: 35%;
+    top: 50%;
+    left: 50%;
     font-family: 'OPTIMA', sans-serif;
     font-size: 66px;
     color: #fff;
     text-transform: uppercase;
     font-weight: 400;
+    transform: translate(-50%, -50%);
 }
 
 .texto2{
     position: absolute;
-    top: 37%;
-    left: 22%;
+    top: 50%;
+    left: 50%;
     font-size: 66px;
     color: #fff;
     text-transform: uppercase;
     font-family: 'OPTIMA', sans-serif;
     font-weight: 400;
+    transform: translate(-50%, -50%);
 }
 
 .wallpaper{
